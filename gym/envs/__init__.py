@@ -290,6 +290,11 @@ register(
     entry_point='gym.envs.mujoco:HumanoidStandupEnv',
     max_episode_steps=1000,
 )
+register(
+    id='oddoreven-v0',
+    entry_point='gym_oddoreven.envs:oddoreven_env',
+)
+
 
 # Robotics
 # ----------------------------------------
